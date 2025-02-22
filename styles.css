@@ -210,3 +210,15 @@ header.random-info {
   font-weight: 800;
   font-size: 14px;
 }
+
+footer {
+  height: 100px;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  color: #f9faf8;
+}
