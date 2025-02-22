@@ -162,3 +162,51 @@ header.random-info {
 }
 
 /* end of quotes tags */
+
+.action-section {
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1000px;
+  background-color: #3882f6;
+  padding: 50px 150px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+}
+
+.action-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.action-header {
+  font-size: 24px;
+  font-weight: 500;
+  color: #f9faf8;
+}
+
+.action-subtext {
+  color: #f9faf8;
+  font-size: 18px;
+}
+
+.action-button {
+  display: flex;
+  height: 30px;
+  width: 120px;
+  justify-content: center;
+  align-items: center;
+  background-color: #3882f6;
+  border: 2px solid #f9faf8;
+  border-radius: 8px;
+  color: #f9faf8;
+  font-weight: 800;
+  font-size: 14px;
+}
