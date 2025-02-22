@@ -13,7 +13,7 @@ body {
   flex-direction: column;
   background-color: #1f2937;
   padding: 0 300px 0 300px;
-  height: 500px;
+  height: 525px;
 }
 
 .header {
@@ -53,8 +53,8 @@ a {
 .hero .left {
   display: flex;
   flex-direction: column;
-  width: 400px;
-  min-height: 300px;
+  min-width: 400px;
+  height: 300px;
   flex: auto;
 }
 
@@ -81,10 +81,10 @@ a {
 }
 
 .hero-img {
-  width: 600px;
-  height: 240px;
   background-color: grey;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 300px;
+  width: 700px;
 }
